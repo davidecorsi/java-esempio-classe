@@ -1,9 +1,9 @@
 
 public class Persona {
-	String nome;
-	int altezza;
+	String nome; // tipo riferimento
+	int altezza; // tipo primitivo
 
-	public Persona(String nome, int altezza) {
+	public Persona(String nome, int altezza) { //prototipo del metodo
 	this.nome = nome;
 	this.altezza = altezza;
 	}
