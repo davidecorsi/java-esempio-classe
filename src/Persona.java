@@ -3,12 +3,12 @@ public class Persona {
 	String nome;
 	int altezza;
 
-	public Persona(String nome, int altezza) { //prototipo del metodo
+	public Persona(String nome, int altezza) {
 	this.nome = nome;
 	this.altezza = altezza;
 	}
 	
-	public String getNome() {
+	public String getNome() { //prototipo del metodo
 	return nome;
 	}
 	
