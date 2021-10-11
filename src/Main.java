@@ -27,5 +27,8 @@ public class Main {
 		System.out.println("Persona 1 modificata:");
 		System.out.println(p1.getNome());
 		System.out.println(p1.getAltezza());
+		
+		// Stampa con il metodo toString()
+		System.out.println(p1);
 	}
 }

@@ -23,4 +23,8 @@ public class Persona {
 	public void setAltezza(int altezza) {
 		this.altezza = altezza;
 	}
+	
+	public String toString() {
+		return "Nome: " + nome + "\nAltezza: " + altezza;
+	}
 }
